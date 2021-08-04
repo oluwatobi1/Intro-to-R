@@ -229,12 +229,10 @@ a
 rowSums(a)
 colSums(b)
 
-
 # Factors
 #  special data type for categorical variables
 
 #  factor()
-# 
 
 ?factor
 shirtgroups <- c("Small", "Medium", "Large", "Extralarge")
@@ -347,7 +345,6 @@ plot(iris$Sepal.Length, iris$Sepal.Width,
      col = "#fc0703",
      pch=19)
 
-# 
 hist(iris$Sepal.Length)
 hist(iris$Sepal.Width)
 plot(dnorm, -3, 3)
